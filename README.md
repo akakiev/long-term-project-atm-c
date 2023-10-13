@@ -9,9 +9,11 @@
   Add your open source license, GitHub uses the MIT license.
 -->
 
-# Hospital Management System in C++
+# ATM Management System using C++
 
-In this readme file, a C++ program is discussed to manage the Hospital Management System. Given data of Hospitals with the name of hospital, contact and doctors and patients below are the functionalities that needed to be implemented:
+ATMs are Automated Teller Machines that are used to carry day-to-day financial transactions. ATMs can be used to withdraw money or to deposit money or even to know the information of an account like the balance amount, etc. They are convenient and easy to use,and  it allows consumers to perform quick self-service transactions.
+
+In this article, we will discuss the ATM Management System in C++ which is an application that provides users with every aspect that an actual Automated Teller Machine i.e., ATM should have. It is a menu-driven program having ATM functions which include:
 
 </header>
 
@@ -24,7 +26,6 @@ In this readme file, a C++ program is discussed to manage the Hospital Managemen
   TBD-step-1-notes.
 -->
 
-## Functions Supported:
 <!--
 _Welcome to "TBD-course-name"! :wave:_
 
@@ -34,28 +35,23 @@ TBD-step-1-information
 
 ### :keyboard: Activity: TBD-step-1-name
 -->
-- Print Hospital DATA
-- Print Patients data
-- SORT BY Beds Price
-- SORT BY Available Beds
-- SORT BY NAME
-- SORT BY Rating and reviews
-- Print hospital of any specific city
+1. Enter Name, Account number, Account type to be shown during transactions.
+2. Shows the information about the person who is doing the transaction.
+3. Enter amount to deposited in the account.
+4. Shows the Balance in the account.
+5. Enter amount to be withdrawn from the account, and then it shows available balance.
+6. Cancel the transaction.
 
 ## Approach:
-1. Create classes for both the Hospital dataset and Patient data.
-2. Initialize variables that store Hospital dataset and Patient data.
-3. Create Objects for hospitals and Patient classes that access the Hospital dataset and Patient data.
-4. Use two arrays that hold the Hospital dataset and Patient data.
-5. Implement the given functionality.
+This program uses basic concepts of class, Access Modifiers in C++, data types, variables, Switch Case, etc. Below are the functionalities that are to be implemented:
+1. <b>setvalue()</b>: This function is used here to set the data using basic input and output method in C++ i.e., cout and cin statements which display and take input from the keyboard i.e., from the user respectively.
+2. <b>showvalue()</b>: This function is used to print the data.
+3. <b>deposit()</b>: This function helps to deposit money in a particular account.
+4. <b>showbal()</b>: This function shows the total balance available after deposition.
+5. <b>withdrawl()</b>: This function helps to withdraw money from the account.
 
-## The important functions in the program:
-- PrintHospitalData() : It will print all the hospitals data.
-- PrintPatientData() : It will print all the hospitals data.
-- SortHospitalByName(): Sort all the hospitals from name
-- SortHospitalByRating(): Sort hospitals according to rating
-- SortByBedsAvailable() : Sort hospitals according to beds available
-- SortByBedsPrice(): Sort hospitals according to the minimum price.
+<b>Automated Teller Machine (ATM)</b> also known as ABM (Automated Banking Machine) is a banking system. This banking system allows customers or users to have access to financial transactions. These transactions can be done in public space without any need for a clerk, cashier, or bank teller. 
+
 <footer>
 
 <!--
